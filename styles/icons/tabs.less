@@ -17,20 +17,20 @@
   }
 
   // SET ICONS FOR ATOM VIEWS
-  .tab-icon('SettingsView', 'settings', @seti-primary);
-  .tab-icon('MarkdownPreviewView', 'markdown', @blue);
-  .tab-icon('DeprecationCopView', 'deprecation-cop', @seti-primary);
-  .tab-icon('TimecopView', 'time-cop', @seti-primary);
-  .tab-icon('ResultsPaneView', 'search', @seti-primary);
-  .tab-icon('AboutView', 'info', @seti-primary);
+  .tab-icon('SettingsView', 'settings', @grey-light);
+  .tab-icon('MarkdownPreviewView', 'markdown', @grey-light);
+  .tab-icon('DeprecationCopView', 'deprecation-cop', @grey-light);
+  .tab-icon('TimecopView', 'time-cop', @grey-light);
+  .tab-icon('ResultsPaneView', 'search', @grey-light);
+  .tab-icon('AboutView', 'info', @grey-light);
 
   // NEW FILES
   &[data-type='GitControlView'] .title:not([data-name]) {
-    .icon('github', @seti-primary);
+    .icon('github', @grey-light);
   }
 
   // NEW FILES
   &[data-type='TextEditor'] .title:not([data-name]) {
-    .icon('new-file', @green);
+    .icon('new-file', @grey-light);
   }
 }
